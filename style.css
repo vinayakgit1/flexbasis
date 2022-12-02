@@ -1,0 +1,56 @@
+*{
+    margin: 2px;
+    border-radius: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+header{
+    
+    flex-basis: 100px;
+    display: flex;
+}
+.logo{
+    background-color: yellow;
+    flex-basis: 100px;
+}
+.heading{
+    
+    flex-basis: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    background-color: aqua;
+    flex-basis: 70%;
+}
+.menu{
+    background-color: burlywood;
+    flex-basis: 30%;
+}
+section{
+    flex-basis: 300px;
+    display: flex;
+}
+.left{
+    background-color: cadetblue;
+    flex-basis: 400px;
+    order: 1;
+}
+.middle{
+    background-color: crimson;
+    flex-basis: 300px;
+    order: 2;
+}
+.right{
+    background-color: deeppink;
+    flex-basis: 400px;
+    order: 3;
+}
+footer{
+    background-color: chartreuse;
+    flex-basis: 100px;
+}
